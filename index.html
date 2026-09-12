@@ -19,25 +19,36 @@
       <p>Стандартные фразы радиообмена Pilot ↔ Controller</p>
       <button>Открыть</button>
     </section>
-
     <section class="card">
       <h2>Listening</h2>
       <p>Аудирование: переговоры с диспетчером, нестандартные ситуации</p>
       <button>Открыть</button>
     </section>
-
     <section class="card">
       <h2>Vocabulary</h2>
       <p>Авиационные термины: погода, навигация, аварийные ситуации</p>
       <button>Открыть</button>
     </section>
-
     <section class="card">
       <h2>Situations</h2>
       <p>Открытые вопросы для разговорной практики</p>
       <button>Открыть</button>
     </section>
   </main>
+
+  <section id="trainer">
+    <button id="back-btn">← Назад</button>
+    <p id="progress-text"></p>
+    <div id="flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front"><span id="ru-text"></span></div>
+        <div class="flip-card-back"><span id="en-text"></span></div>
+      </div>
+    </div>
+    <button id="know-btn">Знаю ✓</button>
+    <button id="repeat-btn">Повторить ↻</button>
+    <div id="result"></div>
+  </section>
 
   <footer>
     <p>© 2026 Aviation English Trainer</p>
