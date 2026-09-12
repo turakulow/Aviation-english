@@ -1,0 +1,14 @@
+[
+  { "ru": "Взлёт разрешён, полоса 24", "en": "Cleared for takeoff, runway 24" },
+  { "ru": "Снижайтесь и сохраняйте эшелон 120", "en": "Descend and maintain flight level 120" },
+  { "ru": "Доложите занятие эшелона 340", "en": "Report reaching flight level 340" },
+  { "ru": "Следуйте к точке ожидания", "en": "Taxi to holding point" },
+  { "ru": "Включите транспондер, код 4271", "en": "Squawk 4271" },
+  { "ru": "Ускорьте снижение до прохождения эшелона 240", "en": "Expedite descent until passing flight level 240" },
+  { "ru": "Сообщите вашу высоту", "en": "Say your altitude" },
+  { "ru": "Разрешение на заход, полоса 16", "en": "Cleared for approach, runway 16" },
+  { "ru": "Уходите на второй круг", "en": "Go around" },
+  { "ru": "Повторите последнее сообщение", "en": "Say again" },
+  { "ru": "Принято, выполняю", "en": "Roger, wilco" },
+  { "ru": "Понял, ожидаю дальнейших указаний", "en": "Wilco, standing by" }
+]
