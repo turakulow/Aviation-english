@@ -1,0 +1,107 @@
+/* ===== Общие настройки ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  background: linear-gradient(180deg, #0a1929 0%, #0f2940 100%);
+  color: #e6f1ff;
+  min-height: 100vh;
+  padding: 20px;
+  line-height: 1.5;
+}
+
+/* ===== Шапка ===== */
+header {
+  text-align: center;
+  padding: 40px 20px 30px;
+}
+
+header h1 {
+  font-size: 2rem;
+  margin-bottom: 8px;
+  letter-spacing: 1px;
+}
+
+header p {
+  color: #7fb3d5;
+  font-size: 1rem;
+}
+
+/* ===== Сетка карточек ===== */
+main {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* ===== Карточка ===== */
+.card {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(127, 179, 213, 0.25);
+  border-radius: 16px;
+  padding: 20px;
+  transition: transform 0.2s, border-color 0.2s;
+}
+
+.card:active {
+  transform: scale(0.98);
+  border-color: #7fb3d5;
+}
+
+.card h2 {
+  font-size: 1.25rem;
+  margin-bottom: 6px;
+  color: #ffffff;
+}
+
+.card p {
+  font-size: 0.9rem;
+  color: #a8c5dd;
+  margin-bottom: 14px;
+}
+
+/* ===== Кнопка ===== */
+.card button {
+  background: #2d7dd2;
+  color: #ffffff;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 22px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.card button:hover {
+  background: #3d8de2;
+}
+
+.card button:active {
+  background: #1d6dc2;
+}
+
+/* ===== Подвал ===== */
+footer {
+  text-align: center;
+  padding: 40px 20px 20px;
+  color: #4a6b85;
+  font-size: 0.8rem;
+}
+
+/* ===== Планшет и шире (iPad) ===== */
+@media (min-width: 700px) {
+  main {
+    grid-template-columns: 1fr 1fr;
+    max-width: 800px;
+  }
+  header h1 {
+    font-size: 2.5rem;
+  }
+}
